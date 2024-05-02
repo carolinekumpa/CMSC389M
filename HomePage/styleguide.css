@@ -1,0 +1,31 @@
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --semibold-18pt-font-family: "SF Pro", Helvetica;
+  --semibold-18pt-font-weight: 400;
+  --semibold-18pt-font-size: 18px;
+  --semibold-18pt-letter-spacing: -0.4399999976158142px;
+  --semibold-18pt-line-height: 23px;
+  --semibold-18pt-font-style: normal;
+  --1-themes-label-primary: rgba(0, 0, 0, 1);
+  --1-themes-system-black: rgba(0, 0, 0, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-1-themes-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-1-themes-mode="light"] {
+  --1-themes-label-primary: rgba(0, 0, 0, 1);
+}
+
+[data-1-themes-mode="dark"] {
+  --1-themes-label-primary: rgba(255, 255, 255, 1);
+}

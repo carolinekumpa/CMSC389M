@@ -1,0 +1,342 @@
+.home {
+  background-color: #ffe9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: #ffe9e9;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  position: relative;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 756px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.home .line-under-home-icon {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 71px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.home .home-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 31px;
+}
+
+.home .chat-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 223px;
+}
+
+.home .date-range-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 127px;
+}
+
+.home .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 319px;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  width: 257px;
+  top: 129px;
+  left: 67px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .overlap-group {
+  position: absolute;
+  width: 302px;
+  height: 19px;
+  top: 458px;
+  left: 18px;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  width: 257px;
+  top: 0;
+  left: 0;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .line-next-to-join {
+  position: absolute;
+  width: 85px;
+  height: 1px;
+  top: 14px;
+  left: 217px;
+  object-fit: cover;
+}
+
+.home .overlap-group-2 {
+  position: absolute;
+  width: 304px;
+  height: 19px;
+  top: 568px;
+  left: 73px;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  width: 257px;
+  top: 0;
+  left: 47px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .line-next-to-learn {
+  position: absolute;
+  width: 85px;
+  height: 1px;
+  top: 14px;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .overlap-2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 185px;
+  left: 73px;
+  background-color: #e9d4d4;
+  border-radius: 10px;
+}
+
+.home .text-wrapper-4 {
+  position: absolute;
+  width: 108px;
+  top: 18px;
+  left: 69px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .countdown-for-casino {
+  position: absolute;
+  width: 48px;
+  top: 97px;
+  left: 98px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .instagram-logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 499px;
+  left: 258px;
+  object-fit: cover;
+}
+
+.home .slack-logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 499px;
+  left: 91px;
+  object-fit: cover;
+}
+
+.home .overlap-3 {
+  position: absolute;
+  width: 133px;
+  height: 123px;
+  top: 614px;
+  left: 129px;
+}
+
+.home .AWC-transparent-logo {
+  position: absolute;
+  width: 106px;
+  height: 94px;
+  top: 11px;
+  left: 13px;
+  object-fit: cover;
+}
+
+.home .awc-home-page-logo {
+  position: absolute;
+  width: 133px;
+  height: 123px;
+  top: 0;
+  left: 0;
+}
+
+.home .terplink-image {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 500px;
+  left: 170px;
+  object-fit: cover;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 134px;
+  top: 74px;
+  left: 128px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .overlap-4 {
+  position: absolute;
+  width: 394px;
+  height: 63px;
+  top: -6px;
+  left: -1px;
+}
+
+.home .status-bar {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+}
+
+.home .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px 13px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.home .status-bar-time {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-18pt-font-family);
+  font-weight: var(--semibold-18pt-font-weight);
+  color: var(--1-themes-label-primary);
+  font-size: var(--semibold-18pt-font-size);
+  text-align: center;
+  letter-spacing: var(--semibold-18pt-letter-spacing);
+  line-height: var(--semibold-18pt-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-18pt-font-style);
+}
+
+.home .status-bar-dynamic {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .hole {
+  position: relative;
+  width: 126px;
+  height: 37px;
+  background-color: var(--1-themes-system-black);
+  border-radius: 100px;
+}
+
+.home .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.home .status-bar-2 {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 6px;
+  left: 1px;
+  background-color: #ffe9e9;
+}

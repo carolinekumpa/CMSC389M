@@ -1,0 +1,480 @@
+.annie-private-chat {
+  background-color: #ffe9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.annie-private-chat .div {
+  background-color: #ffe9e9;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  position: relative;
+}
+
+.annie-private-chat .overlap {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 756px;
+  left: 0;
+}
+
+.annie-private-chat .line {
+  width: 30px;
+  top: 70px;
+  left: 233px;
+  position: absolute;
+  height: 1px;
+  object-fit: cover;
+}
+
+.annie-private-chat .nav-bar {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.annie-private-chat .home-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 31px;
+}
+
+.annie-private-chat .chat-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 223px;
+}
+
+.annie-private-chat .date-range-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 127px;
+}
+
+.annie-private-chat .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 319px;
+}
+
+.annie-private-chat .img {
+  width: 30px;
+  top: 70px;
+  left: 228px;
+  position: absolute;
+  height: 1px;
+  object-fit: cover;
+}
+
+.annie-private-chat .overlap-group {
+  position: absolute;
+  width: 135px;
+  height: 24px;
+  top: 62px;
+  left: 15px;
+}
+
+.annie-private-chat .text-wrapper {
+  position: absolute;
+  width: 129px;
+  top: 2px;
+  left: 6px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.annie-private-chat .expand-right {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.annie-private-chat .div-wrapper {
+  position: absolute;
+  width: 308px;
+  height: 42px;
+  top: 692px;
+  left: 24px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.annie-private-chat .p {
+  position: absolute;
+  width: 201px;
+  top: 13px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #00000080;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .send-fill {
+  position: absolute;
+  width: 38px;
+  height: 40px;
+  top: 690px;
+  left: 342px;
+}
+
+.annie-private-chat .overlap-2 {
+  position: absolute;
+  width: 368px;
+  height: 272px;
+  top: 105px;
+  left: 12px;
+}
+
+.annie-private-chat .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  padding: 0px 30px 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 31px;
+}
+
+.annie-private-chat .chat-bubble {
+  position: relative;
+  width: 285px;
+  height: 44px;
+}
+
+.annie-private-chat .overlap-group-2 {
+  position: relative;
+  height: 44px;
+}
+
+.annie-private-chat .rectangle {
+  position: absolute;
+  width: 260px;
+  height: 44px;
+  top: 0;
+  left: 25px;
+  background-color: #ffffff;
+}
+
+.annie-private-chat .polygon {
+  position: absolute;
+  width: 28px;
+  height: 15px;
+  top: 16px;
+  left: 0;
+}
+
+.annie-private-chat .overlap-wrapper {
+  position: relative;
+  width: 285px;
+  height: 44px;
+  transform: rotate(180deg);
+}
+
+.annie-private-chat .polygon-2 {
+  position: absolute;
+  width: 28px;
+  height: 15px;
+  top: 13px;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.annie-private-chat .text-wrapper-2 {
+  top: 102px;
+  left: 163px;
+  position: absolute;
+  width: 200px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #645b5b;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .text-wrapper-3 {
+  top: 214px;
+  left: 1px;
+  position: absolute;
+  width: 200px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #645b5b;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .text-wrapper-4 {
+  position: absolute;
+  width: 244px;
+  top: 6px;
+  left: 77px;
+  font-family: "Lao Sans Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .text-wrapper-5 {
+  position: absolute;
+  width: 258px;
+  top: 120px;
+  left: 35px;
+  font-family: "Lao Sans Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .text-wrapper-6 {
+  position: absolute;
+  width: 97px;
+  top: 242px;
+  left: 67px;
+  font-family: "Lao Sans Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .ellipse {
+  top: 118px;
+  left: 330px;
+  position: absolute;
+  width: 38px;
+  height: 37px;
+  object-fit: cover;
+}
+
+.annie-private-chat .ellipse-2 {
+  top: 233px;
+  left: 0;
+  position: absolute;
+  width: 38px;
+  height: 37px;
+  object-fit: cover;
+}
+
+.annie-private-chat .ellipse-3 {
+  top: 7px;
+  left: 0;
+  position: absolute;
+  width: 38px;
+  height: 37px;
+  object-fit: cover;
+}
+
+.annie-private-chat .overlap-3 {
+  position: absolute;
+  width: 285px;
+  height: 44px;
+  top: 453px;
+  left: 57px;
+}
+
+.annie-private-chat .overlap-group-wrapper {
+  position: absolute;
+  width: 285px;
+  height: 44px;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.annie-private-chat .text-wrapper-7 {
+  position: absolute;
+  width: 244px;
+  top: 14px;
+  left: 3px;
+  font-family: "Lao Sans Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .text-wrapper-8 {
+  top: 93px;
+  left: 14px;
+  position: absolute;
+  width: 200px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #645b5b;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .text-wrapper-9 {
+  top: 440px;
+  left: 173px;
+  position: absolute;
+  width: 200px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #645b5b;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .ellipse-4 {
+  top: 458px;
+  left: 345px;
+  position: absolute;
+  width: 38px;
+  height: 37px;
+  object-fit: cover;
+}
+
+.annie-private-chat .overlap-4 {
+  position: absolute;
+  width: 390px;
+  height: 16px;
+  top: 418px;
+  left: 0;
+}
+
+.annie-private-chat .text-wrapper-10 {
+  position: absolute;
+  width: 77px;
+  top: 0;
+  left: 156px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #655c5c;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-private-chat .line-2 {
+  width: 390px;
+  top: 15px;
+  left: 0;
+  position: absolute;
+  height: 1px;
+  object-fit: cover;
+}
+
+.annie-private-chat .status-bar {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffe9e9;
+}
+
+.annie-private-chat .div-wrapper-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px 13px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.annie-private-chat .status-bar-time {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-private-chat .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-18pt-font-family);
+  font-weight: var(--semibold-18pt-font-weight);
+  color: var(--1-themes-label-primary);
+  font-size: var(--semibold-18pt-font-size);
+  text-align: center;
+  letter-spacing: var(--semibold-18pt-letter-spacing);
+  line-height: var(--semibold-18pt-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-18pt-font-style);
+}
+
+.annie-private-chat .status-bar-dynamic {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-private-chat .hole {
+  position: relative;
+  width: 126px;
+  height: 37px;
+  background-color: var(--1-themes-system-black);
+  border-radius: 100px;
+}
+
+.annie-private-chat .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-private-chat .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}

@@ -1,0 +1,379 @@
+.annie-profile {
+  background-color: #ffe9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.annie-profile .div {
+  background-color: #ffe9e9;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  position: relative;
+}
+
+.annie-profile .arrow-back-circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 70px;
+  left: 11px;
+}
+
+.annie-profile .ellipse {
+  position: absolute;
+  width: 169px;
+  height: 169px;
+  top: 70px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.annie-profile .overlap {
+  position: absolute;
+  width: 287px;
+  height: 88px;
+  top: 270px;
+  left: 58px;
+}
+
+.annie-profile .annie-chen-senior-CS {
+  position: absolute;
+  width: 202px;
+  top: 0;
+  left: 38px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-profile .co-director-of {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-profile .text-wrapper {
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.annie-profile .span {
+  font-size: 17px;
+}
+
+.annie-profile .overlap-group {
+  position: absolute;
+  width: 134px;
+  height: 43px;
+  top: 456px;
+  left: 131px;
+}
+
+.annie-profile .rectangle {
+  position: absolute;
+  width: 134px;
+  height: 43px;
+  top: 0;
+  left: 0;
+}
+
+.annie-profile .text-wrapper-2 {
+  position: absolute;
+  width: 111px;
+  top: 8px;
+  left: 23px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.annie-profile .message-bubble-with {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  top: 8px;
+  left: 18px;
+}
+
+.annie-profile .group {
+  position: relative;
+  width: 18px;
+  height: 16px;
+  top: 4px;
+  left: 3px;
+}
+
+.annie-profile .ellipses-horizontal-wrapper {
+  position: relative;
+  width: 20px;
+  height: 18px;
+  top: -1px;
+  left: -1px;
+  background-image: url(./img/ellipse-30-1.png);
+  background-size: 100% 100%;
+}
+
+.annie-profile .ellipses-horizontal {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  top: 1px;
+  left: 3px;
+}
+
+.annie-profile .img {
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  top: 5px;
+  left: 1px;
+}
+
+.annie-profile .overlap-2 {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 756px;
+  left: 0;
+}
+
+.annie-profile .line {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  left: 335px;
+  object-fit: cover;
+}
+
+.annie-profile .nav-bar {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.annie-profile .home-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 31px;
+}
+
+.annie-profile .chat-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 223px;
+}
+
+.annie-profile .date-range-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 127px;
+}
+
+.annie-profile .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 319px;
+}
+
+.annie-profile .line-under-profile {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  left: 324px;
+  object-fit: cover;
+}
+
+.annie-profile .status-bar {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffe9e9;
+}
+
+.annie-profile .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px 13px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.annie-profile .status-bar-time {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-profile .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-18pt-font-family);
+  font-weight: var(--semibold-18pt-font-weight);
+  color: var(--1-themes-label-primary);
+  font-size: var(--semibold-18pt-font-size);
+  text-align: center;
+  letter-spacing: var(--semibold-18pt-letter-spacing);
+  line-height: var(--semibold-18pt-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-18pt-font-style);
+}
+
+.annie-profile .status-bar-dynamic {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-profile .hole {
+  position: relative;
+  width: 126px;
+  height: 37px;
+  background-color: var(--1-themes-system-black);
+  border-radius: 100px;
+}
+
+.annie-profile .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-profile .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.annie-profile .email-icon {
+  position: absolute;
+  width: 176px;
+  height: 27px;
+  top: 400px;
+  left: 47px;
+}
+
+.annie-profile .text-wrapper-4 {
+  position: absolute;
+  width: 152px;
+  top: 0;
+  left: 22px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #0000ee;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.annie-profile .mail-send-envelope {
+  position: absolute;
+  width: 17px;
+  height: 18px;
+  top: 5px;
+  left: 0;
+}
+
+.annie-profile .phone-android-phone {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  top: 406px;
+  left: 232px;
+}
+
+.annie-profile .phone-number {
+  position: absolute;
+  width: 117px;
+  top: 399px;
+  left: 254px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #0000ee;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.annie-profile .overlap-3 {
+  position: absolute;
+  width: 75px;
+  height: 19px;
+  top: 358px;
+  left: 167px;
+}
+
+.annie-profile .text-wrapper-5 {
+  position: absolute;
+  width: 71px;
+  top: 0;
+  left: 4px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.annie-profile .active-bubble {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 7px;
+  left: 0;
+  background-color: #208a4b;
+  border-radius: 6px;
+}
