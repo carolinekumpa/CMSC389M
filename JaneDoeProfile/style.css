@@ -1,0 +1,349 @@
+.profile {
+  background-color: #ffe9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile .div {
+  background-color: #ffe9e9;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  position: relative;
+}
+
+.profile .overlap {
+  position: absolute;
+  width: 225px;
+  height: 577px;
+  top: 85px;
+  left: 82px;
+}
+
+.profile .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.profile .ellipse {
+  position: relative;
+  width: 169px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.profile .jane-doe-senior-CS {
+  position: relative;
+  width: 202px;
+  height: 61px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .export-light {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.profile .rectangle {
+  position: relative;
+  width: 225px;
+  height: 221px;
+  background-color: #e9d4d4;
+  border-radius: 10px;
+}
+
+.profile .group {
+  position: absolute;
+  width: 163px;
+  height: 42px;
+  top: 298px;
+  left: 32px;
+}
+
+.profile .overlap-group {
+  position: relative;
+  width: 161px;
+  height: 42px;
+  background-image: url(./img/rectangle-33.png);
+  background-size: 100% 100%;
+}
+
+.profile .text-wrapper {
+  position: absolute;
+  width: 111px;
+  top: 10px;
+  left: 14px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .text-wrapper-2 {
+  position: absolute;
+  width: 172px;
+  top: 392px;
+  left: 25px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .text-wrapper-3 {
+  position: absolute;
+  width: 73px;
+  top: 437px;
+  left: 76px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .expand-right {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 448px;
+  left: 125px;
+}
+
+.profile .rectangle-2 {
+  position: absolute;
+  width: 160px;
+  height: 43px;
+  top: 503px;
+  left: 37px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.profile .text-wrapper-4 {
+  position: absolute;
+  width: 170px;
+  top: 512px;
+  left: 32px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profile .img {
+  position: absolute;
+  top: 307px;
+  left: 157px;
+  width: 24px;
+  height: 24px;
+}
+
+.profile .overlap-2 {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 756px;
+  left: 0;
+}
+
+.profile .line {
+  left: 335px;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  object-fit: cover;
+}
+
+.profile .nav-bar {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.profile .home-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 31px;
+}
+
+.profile .chat-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 223px;
+}
+
+.profile .date-range-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 127px;
+}
+
+.profile .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 319px;
+}
+
+.profile .line-2 {
+  left: 324px;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  object-fit: cover;
+}
+
+.profile .status-bar {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffe9e9;
+}
+
+.profile .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px 13px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.profile .status-bar-time {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.profile .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-18pt-font-family);
+  font-weight: var(--semibold-18pt-font-weight);
+  color: var(--1-themes-label-primary);
+  font-size: var(--semibold-18pt-font-size);
+  text-align: center;
+  letter-spacing: var(--semibold-18pt-letter-spacing);
+  line-height: var(--semibold-18pt-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-18pt-font-style);
+}
+
+.profile .status-bar-dynamic {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.profile .hole {
+  position: relative;
+  width: 126px;
+  height: 37px;
+  background-color: var(--1-themes-system-black);
+  border-radius: 100px;
+}
+
+.profile .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.profile .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.profile .group-2 {
+  position: absolute;
+  width: 30px;
+  height: 8px;
+  top: 70px;
+  left: 333px;
+}
+
+.profile .ellipse-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  border-radius: 4px;
+}
+
+.profile .ellipse-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 22px;
+  background-color: #00000080;
+  border-radius: 4px;
+}
+
+.profile .ellipse-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 11px;
+  background-color: #00000080;
+  border-radius: 4px;
+}
