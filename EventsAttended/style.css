@@ -1,0 +1,371 @@
+.events-attended {
+  background-color: #ffe9e9b2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.events-attended .div {
+  background-color: #ffe9e9b2;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  position: relative;
+}
+
+.events-attended .overlap {
+  width: 393px;
+  height: 649px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.events-attended .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+  position: absolute;
+  top: 53px;
+  left: 83px;
+}
+
+.events-attended .ellipse {
+  position: relative;
+  width: 169px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.events-attended .jane-doe-senior-CS {
+  position: relative;
+  width: 202px;
+  height: 61px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.events-attended .rectangle {
+  position: relative;
+  width: 134px;
+  height: 43px;
+}
+
+.events-attended .rectangle-2 {
+  position: relative;
+  width: 225px;
+  height: 221px;
+  background-color: #d9d9d980;
+  border-radius: 10px;
+}
+
+.events-attended .text-wrapper {
+  position: absolute;
+  width: 111px;
+  top: 307px;
+  left: 57px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.events-attended .text-wrapper-2 {
+  width: 172px;
+  top: 392px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  left: 25px;
+}
+
+.events-attended .text-wrapper-3 {
+  position: absolute;
+  width: 73px;
+  top: 437px;
+  left: 76px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.events-attended .expand-right {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 448px;
+  left: 125px;
+}
+
+.events-attended .rectangle-3 {
+  position: absolute;
+  width: 160px;
+  height: 43px;
+  top: 512px;
+  left: 37px;
+  background-color: #ffffff80;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #00000080;
+}
+
+.events-attended .text-wrapper-4 {
+  position: absolute;
+  width: 170px;
+  top: 521px;
+  left: 32px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.events-attended .close-circle-wrapper {
+  width: 337px;
+  height: 312px;
+  top: 282px;
+  background-color: #7e7d7d;
+  border-radius: 34px;
+  position: absolute;
+  left: 25px;
+}
+
+.events-attended .close-circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  left: 281px;
+}
+
+.events-attended .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  position: absolute;
+  width: 356px;
+  height: 106px;
+  top: 356px;
+  left: 12px;
+}
+
+.events-attended .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  line-height: normal;
+}
+
+.events-attended .span {
+  letter-spacing: 0.08px;
+}
+
+.events-attended .status-bar {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffe9e9;
+}
+
+.events-attended .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px 13px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.events-attended .status-bar-time {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.events-attended .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-18pt-font-family);
+  font-weight: var(--semibold-18pt-font-weight);
+  color: var(--1-themes-label-primary);
+  font-size: var(--semibold-18pt-font-size);
+  text-align: center;
+  letter-spacing: var(--semibold-18pt-letter-spacing);
+  line-height: var(--semibold-18pt-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-18pt-font-style);
+}
+
+.events-attended .status-bar-dynamic {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.events-attended .hole {
+  position: relative;
+  width: 126px;
+  height: 37px;
+  background-color: var(--1-themes-system-black);
+  border-radius: 100px;
+}
+
+.events-attended .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.events-attended .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.events-attended .group {
+  position: absolute;
+  width: 30px;
+  height: 8px;
+  top: 55px;
+  left: 334px;
+}
+
+.events-attended .ellipse-2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  border-radius: 4px;
+}
+
+.events-attended .ellipse-3 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 22px;
+  background-color: #00000080;
+  border-radius: 4px;
+}
+
+.events-attended .ellipse-4 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 11px;
+  background-color: #00000080;
+  border-radius: 4px;
+}
+
+.events-attended .overlap-group {
+  width: 390px;
+  height: 89px;
+  top: 756px;
+  position: absolute;
+  left: 0;
+}
+
+.events-attended .line-under-profile {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  left: 335px;
+  object-fit: cover;
+}
+
+.events-attended .nav-bar {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.events-attended .home-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 31px;
+}
+
+.events-attended .chat-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 223px;
+}
+
+.events-attended .date-range-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 127px;
+}
+
+.events-attended .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 319px;
+}
+
+.events-attended .line-under-profile-2 {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  left: 324px;
+  object-fit: cover;
+}
