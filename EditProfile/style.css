@@ -1,0 +1,347 @@
+.edit-profile {
+  background-color: #ffe9e9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.edit-profile .div {
+  background-color: #ffe9e9;
+  overflow: hidden;
+  width: 390px;
+  height: 844px;
+  position: relative;
+}
+
+.edit-profile .overlap {
+  position: absolute;
+  width: 179px;
+  height: 169px;
+  top: 85px;
+  left: 110px;
+}
+
+.edit-profile .ellipse {
+  width: 169px;
+  height: 169px;
+  top: 0;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+}
+
+.edit-profile .edit-fill {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 145px;
+  left: 155px;
+}
+
+.edit-profile .subtract {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 4px;
+  left: 3px;
+}
+
+.edit-profile .overlap-group {
+  position: absolute;
+  width: 202px;
+  height: 78px;
+  top: 302px;
+  left: 95px;
+}
+
+.edit-profile .jane-doe-senior-CS {
+  position: absolute;
+  width: 202px;
+  top: 0;
+  left: 0;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .group {
+  position: absolute;
+  width: 79px;
+  height: 18px;
+  top: 60px;
+  left: 63px;
+}
+
+.edit-profile .overlap-2 {
+  position: relative;
+  width: 77px;
+  height: 18px;
+}
+
+.edit-profile .ellipse-2 {
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  background-color: #208a4b;
+  border-radius: 6px;
+  position: absolute;
+  left: 0;
+}
+
+.edit-profile .text-wrapper {
+  position: absolute;
+  width: 71px;
+  top: 0;
+  left: 6px;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.edit-profile .overlap-group-wrapper {
+  position: absolute;
+  width: 172px;
+  height: 43px;
+  top: 666px;
+  left: 110px;
+}
+
+.edit-profile .overlap-group-2 {
+  position: relative;
+  width: 170px;
+  height: 43px;
+}
+
+.edit-profile .rectangle {
+  position: absolute;
+  width: 160px;
+  height: 43px;
+  top: 0;
+  left: 5px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.edit-profile .text-wrapper-2 {
+  position: absolute;
+  width: 170px;
+  top: 6px;
+  left: 0;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.edit-profile .overlap-3 {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 756px;
+  left: 0;
+}
+
+.edit-profile .line {
+  left: 335px;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  object-fit: cover;
+}
+
+.edit-profile .nav-bar {
+  position: absolute;
+  width: 390px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.edit-profile .home-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 31px;
+}
+
+.edit-profile .chat-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 223px;
+}
+
+.edit-profile .date-range-fill {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 127px;
+}
+
+.edit-profile .user {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 25px;
+  left: 319px;
+}
+
+.edit-profile .img {
+  left: 324px;
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  top: 70px;
+  object-fit: cover;
+}
+
+.edit-profile .status-bar {
+  display: flex;
+  width: 393px;
+  height: 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffe9e9;
+}
+
+.edit-profile .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0px 13px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.edit-profile .status-bar-time {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.edit-profile .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--semibold-18pt-font-family);
+  font-weight: var(--semibold-18pt-font-weight);
+  color: var(--1-themes-label-primary);
+  font-size: var(--semibold-18pt-font-size);
+  text-align: center;
+  letter-spacing: var(--semibold-18pt-letter-spacing);
+  line-height: var(--semibold-18pt-line-height);
+  white-space: nowrap;
+  font-style: var(--semibold-18pt-font-style);
+}
+
+.edit-profile .status-bar-dynamic {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 11px 0px 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.edit-profile .hole {
+  position: relative;
+  width: 126px;
+  height: 37px;
+  background-color: var(--1-themes-system-black);
+  border-radius: 100px;
+}
+
+.edit-profile .icons {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.edit-profile .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.edit-profile .arrow-back-circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 69px;
+  left: 11px;
+}
+
+.edit-profile .overlap-4 {
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  top: 426px;
+  left: 47px;
+}
+
+.edit-profile .text-wrapper-4 {
+  position: absolute;
+  width: 242px;
+  top: 0;
+  left: 0;
+  font-family: "Kaisei Opti", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.edit-profile .expand-right {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  left: 226px;
+}
+
+.edit-profile .overlap-5 {
+  position: absolute;
+  width: 249px;
+  height: 30px;
+  top: 473px;
+  left: 48px;
+}
+
+.edit-profile .expand-right-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  left: 225px;
+}
