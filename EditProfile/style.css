@@ -322,14 +322,6 @@
   line-height: normal;
 }
 
-.edit-profile .expand-right {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 6px;
-  left: 226px;
-}
-
 .edit-profile .overlap-5 {
   position: absolute;
   width: 249px;
@@ -344,4 +336,18 @@
   height: 24px;
   top: 6px;
   left: 225px;
+}
+
+.edit-profile .arrow-right {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  left: 226px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
