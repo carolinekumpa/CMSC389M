@@ -107,6 +107,17 @@
   border-radius: 34px;
 }
 
+.calendar .rectangle-temp {
+  background-color: #222222;
+  opacity: 0.0;
+  position: absolute;
+  width: 337px;
+  height: 131px;
+  top: 0;
+  left: 0;
+  border-radius: 34px;
+}
+
 .calendar .text-wrapper-4 {
   position: absolute;
   top: 51px;
