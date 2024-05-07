@@ -119,10 +119,10 @@
   align-items: center;
   justify-content: center;
   padding: 0px 10px;
-  position: fixed;
   top: 0;
   left: 0;
   background-color: #ffe9e9;
+  position: fixed;
 }
 
 .current-sponsors .div-wrapper {
@@ -198,7 +198,7 @@
 }
 
 .current-sponsors .overlap-5 {
-  position: absolute;
+  position: fixed;
   width: 390px;
   height: 89px;
   top: 756px;
