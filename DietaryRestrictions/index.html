@@ -9,12 +9,13 @@
   <body>
     <div class="dietary-restrictions">
       <div class="div">
-        <a href="../EditProfile/index.html"><div class="group"></a>
-          <a href="../EditProfile/index.html"><div class="overlap-group"></a>
-            <a href="../EditProfile/index.html"><div class="rectangle"></div></a>
-            <a href="../EditProfile/index.html"><div class="text-wrapper">Save</div></a>
+        <div class="group"></a>
+        <div class="overlap-group"></a>
+        <div class="rectangle"></div></a>
+            <button class="text-wrapper" type="submit" id="saveButton">Save</button>
           </div>
         </div>
+        
         <div class="overlap">
           <img class="line" src="img/line-6.png" />
           <div class="nav-bar"></div>
@@ -39,82 +40,70 @@
         </div>
         <a href="../EditProfile/index.html"><img class="arrow-back-circle" src="img/arrow-back-circle.png" /></a>
         <div class="overlap-2">
-          <div class="checkbox-group">
-            <div class="item">
-              <div class="radio-wrapper">
-                <div class="controller">
-                  <div class="thumb">
-                    <div class="icon"><img class="color" src="img/color-9.png" /></div>
-                  </div>
-                </div>
-                <div class="text-wrapper-3">Gluten Free</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="radio-wrapper">
-                <div class="controller">
-                  <div class="thumb">
-                    <div class="icon"><img class="color-2" src="img/color-9.png" /></div>
-                  </div>
-                </div>
-                <div class="label">Lactose Intolerant</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="radio-wrapper">
-                <div class="controller">
-                  <div class="thumb">
-                    <div class="icon"><img class="color-3" src="img/color-9.png" /></div>
-                  </div>
-                </div>
-                <div class="text-wrapper-3">No Red Meat</div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="radio-wrapper">
-                <div class="controller">
-                  <div class="thumb">
-                    <div class="icon"><img class="color-4" src="img/color-9.png" /></div>
-                  </div>
-                </div>
-                <div class="text-wrapper-3">Kosher</div>
-              </div>
-            </div>
-            <div class="item"></div>
-          </div>
-          <div class="vegetarian">
-            <div class="radio-wrapper">
-              <div class="controller">
-                <div class="thumb">
-                  <div class="icon"><img class="color-5" src="img/color-9.png" /></div>
-                </div>
-              </div>
-              <div class="text-wrapper-3">Vegetarian</div>
-            </div>
-          </div>
-          <div class="vegan">
-            <div class="radio-wrapper">
-              <div class="controller">
-                <div class="thumb">
-                  <div class="icon"><img class="color-6" src="img/color-9.png" /></div>
-                </div>
-              </div>
-              <div class="text-wrapper-3">Vegan</div>
-            </div>
-          </div>
-          <div class="none">
-            <div class="radio-wrapper">
-              <div class="controller">
-                <div class="thumb">
-                  <div class="icon"><img class="color-7" src="img/color-9.png" /></div>
-                </div>
-              </div>
-              <div class="text-wrapper-3">None</div>
-            </div>
+            <label class="container">Gluten Free
+              <input type="checkbox" id="glutenFree">
+              <span class="checkmark"></span>
+            </label>
+            
+            <label class="container">Lactose Intolerant
+              <input type="checkbox" id="lactoseIntolerant">
+              <span class="checkmark"></span>
+            </label>
+            
+            <label class="container">No Red Meat
+              <input type="checkbox" id="noRedMeat">
+              <span class="checkmark"></span>
+            </label>
+            
+            <label class="container">Kosher
+              <input type="checkbox" id="kosher">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Vegetarian
+              <input type="checkbox" id="vegetarian">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Vegan
+              <input type="checkbox" id="vegan">
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">None
+              <input type="checkbox" id="none">
+              <span class="checkmark"></span>
+            </label>
           </div>
         </div>
         <div class="text-wrapper-4">Dietary Restrictions</div>
       </div>
     </div>
   </body>
+
+  <script>
+      function saveCheckboxes() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox) => {
+          localStorage.setItem(checkbox.id, checkbox.checked);
+        });
+      }
+
+      function loadCheckboxes() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach((checkbox) => {
+          const savedState = localStorage.getItem(checkbox.id);
+          if (savedState !== null) {
+            checkbox.checked = savedState === 'true';
+          }
+        });
+      }
+
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener('change', saveCheckboxes);
+      });
+
+      document.addEventListener('DOMContentLoaded', loadCheckboxes);
+  </script>
 </html>
