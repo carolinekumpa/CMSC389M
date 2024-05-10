@@ -37,16 +37,14 @@
               </div>
               <a href="../Calendar/index.html"><img class="close-circle" src="img/close-circle.png" /></a>
               <div class="text-wrapper-6">Notes: snacks included!</div>
+              
               <div class="item-wrapper">
                 <div class="item">
-                  <div class="radio-wrapper">
-                    <div class="controller">
-                      <div class="thumb">
-                        <div class="icon"><img class="color" src="img/color-3.png" /></div>
-                      </div>
-                    </div>
-                    <div class="label">Register</div>
-                  </div>
+                  <div class="radio-wrapper"></div>
+                  <label class="container">Register
+                    <input type="checkbox" id="register2">
+                    <span class="checkmark"></span>
+                  </label>
                 </div>
               </div>
             </div>
@@ -75,4 +73,30 @@
       </div>
     </div>
   </body>
+
+  <script>
+    function saveCheckboxes() {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach((checkbox) => {
+        localStorage.setItem(checkbox.id, checkbox.checked);
+      });
+    }
+
+    function loadCheckboxes() {
+      const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      checkboxes.forEach((checkbox) => {
+        const savedState = localStorage.getItem(checkbox.id);
+        if (savedState !== null) {
+          checkbox.checked = savedState === 'true';
+        }
+      });
+    }
+
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach((checkbox) => {
+      checkbox.addEventListener('change', saveCheckboxes);
+    });
+
+    document.addEventListener('DOMContentLoaded', loadCheckboxes);
+</script>
 </html>
