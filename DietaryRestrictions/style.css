@@ -414,7 +414,7 @@
   position: absolute;
   width: 198px;
   top: 129px;
-  left: 235px;
+  /* left: 235px; */
   font-family: "Kaisei Opti", Helvetica;
   font-weight: 400;
   color: #000000;
